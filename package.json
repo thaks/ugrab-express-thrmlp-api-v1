@@ -2,8 +2,13 @@
   "name": "ugrap-api-v1",
   "version": "1.0.0",
   "main": "index.js",
+  
+  "engines": {
+    "node": ">=14.0.0"
+  },
   "scripts": {
-    "dev": "node server.js"
+    "start": "node app.js",
+    "test": "mocha --exit test/*.test.js"
   },
   "keywords": [],
   "author": "",

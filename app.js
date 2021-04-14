@@ -1,3 +1,5 @@
+'use strict';
+
 const express = require('express')
 const cors = require('cors')
 const helmet = require('helmet')
@@ -23,3 +25,5 @@ app.get((req, res, next) => {
 app.listen(port, () => {
     console.log('Server is up and running...')
 })
+
+module.exports = app;
